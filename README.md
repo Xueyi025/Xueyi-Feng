@@ -1,6 +1,6 @@
 # GDIM32 In Class Activities
-## W1 Devlog
-A Scene is like a computer. GameObjects are like the different hardware parts inside it, such as the CPU, GPU, RAM, and fans. Components are like the functions or features each hardware part has.
+## Q1
+When I run the game, I found that it is not in first-person view anymore. The camera stays in one place instead of moving with my cat. This is because the Camera is no longer a child of the Cat, so it does not follow the Cat’s movement.
 
 ## Link of itch
 https://seoli0205.itch.io/assignment
