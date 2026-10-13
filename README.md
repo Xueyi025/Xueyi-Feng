@@ -12,7 +12,7 @@ Activity 1（Table #12）：
 3. Parameter is float for the press time. Return type is bool, returning true if the player hits the beat correctly or false if they miss it.
 
 Activity 2:
-I think a Class is like a blueprint for a computer component, while a Component is like a real part installed in a computer, such as a GPU. Member variables are the properties of the GPU, like its memory size, speed, and temperature. Methods are the things the GPU can do, such as processing graphics and rendering images. Different GPUs can have different properties, but they can follow the same blueprint.
+I think a Class is like structure of PC, while a Component is like a real part installed in a computer, such as a GPU. Member variables are the properties of the GPU, like its memory size, speed, and temperature. Methods are the things the GPU can do, such as processing graphics and rendering images. Different GPUs can have different properties, but they can follow the same blueprint.
 
 Part3:
 I think the balls become extremely bright because of `ballRenderer.color *= GetColorMultiplier(...);`. Every time they bounce fast enough, their color values are multiplied by 1.5, so they keep getting brighter after many bounces.
