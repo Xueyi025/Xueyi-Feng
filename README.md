@@ -17,5 +17,12 @@ I think a Class is like the blueprint of PC, while a Component is like a real pa
 Part3:
 I think the balls become extremely bright because of `ballRenderer.color *= GetColorMultiplier(...);`. Every time they bounce fast enough, their color values are multiplied by 1.5, so they keep getting brighter after many bounces.
 
+## W4
+Collision discussion activity: I added Rigidbodies to the Cat and SoccerBall because they need to move and have physical collisions. I checked Is Trigger on the Goal's Collider because I wanted the ball to pass through the goal area and trigger the OnTriggerEnter method. The Goal doesn't need a Rigidbody because the SoccerBall already has one.
+
+Table #12:
+1. I added Rigidbodies to the cat and the soccer ball. I also made sure they had Colliders. I checked Is Trigger on the Goal's Box Collider so the ball could enter the goal area and trigger the OnTriggerEnter method. I didn't check Is Trigger on the soccer ball or the ground because I wanted them to have normal physical collisions.
+2. My game didn't work perfectly at first. The cat was floating above the ground, and the soccer ball was falling through the ground. I found that some of my Collider settings were incorrect. I had to adjust the cat's Capsule Collider and fix the soccer ball's Sphere Collider. I also checked the Is Trigger settings to make sure the ball could collide with the ground and enter the goal correctly.
+
 ## Link of itch
 https://seoli0205.itch.io/assignment
