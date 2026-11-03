@@ -24,5 +24,10 @@ Table #12:
 1. I added Rigidbodies to the cat and the soccer ball. I also made sure they had Colliders. I checked Is Trigger on the Goal's Box Collider so the ball could enter the goal area and trigger the OnTriggerEnter method. I didn't check Is Trigger on the soccer ball or the ground because I wanted them to have normal physical collisions.
 2. My game didn't work perfectly at first. The cat was floating above the ground, and the soccer ball was falling through the ground. I found that some of my Collider settings were incorrect. I had to adjust the cat's Capsule Collider and fix the soccer ball's Sphere Collider. I also checked the Is Trigger settings to make sure the ball could collide with the ground and enter the goal correctly.
 
+## W6
+1. The member variables should be Transform and NavMeshAgent.
+2. This class should use Start() to get the NavMeshAgent and set up the variables. It can also use Update() if the destination needs to change.
+3. The Start() method should initialize the variables. The Update() method can use the Transform position to set the destination for the NavMeshAgent.
+
 ## Link of itch
 https://seoli0205.itch.io/assignment
