@@ -30,8 +30,8 @@ Table #12:
 3. The Start() method should initialize the variables. The Update() method can use the Transform position to set the destination for the NavMeshAgent.
 
 ## W7
-I was responsible for the **General C# Coding** category. I added key topics we learned in class, such as variables, methods, classes, data types, if/else statements, for loops, and arrays. I included the W3Schools C# tutorial as a helpful resource.
-Finished Google docs:https://docs.google.com/document/d/14FCrpMpAOE2QP1yT5UPCaBEYXaUTrDWGMuJivwHKa4Q/edit?usp=sharing
+1. I was responsible for the **General C# Coding** category. I added key topics we learned in class, such as variables, methods, classes, data types, if/else statements, for loops, and arrays. I included the W3Schools C# tutorial as a helpful resource. Finished Google docs:https://docs.google.com/document/d/14FCrpMpAOE2QP1yT5UPCaBEYXaUTrDWGMuJivwHKa4Q/edit?usp=sharing
+2. We need a float for the bat’s speed, a Transform for the Cat, and a bool to check if the bat should chase. The speed can be changed in the Inspector. We need Start(), Update(), and two public methods to start and stop chasing. Start() will find the Cat and turn on chasing for testing. Update() will move the bat toward the Cat when chasing is on. The two public methods will change the bool to true or false. We will add this script to all the bats and test if they chase the Cat.
 
 ## Link of itch
 https://seoli0205.itch.io/assignment
