@@ -29,5 +29,9 @@ Table #12:
 2. This class should use Start() to get the NavMeshAgent and set up the variables. It can also use Update() if the destination needs to change.
 3. The Start() method should initialize the variables. The Update() method can use the Transform position to set the destination for the NavMeshAgent.
 
+## W7
+I was responsible for the **General C# Coding** category. I added key topics we learned in class, such as variables, methods, classes, data types, if/else statements, for loops, and arrays. I included the W3Schools C# tutorial as a helpful resource.
+Finished Google docs:https://docs.google.com/document/d/14FCrpMpAOE2QP1yT5UPCaBEYXaUTrDWGMuJivwHKa4Q/edit?usp=sharing
+
 ## Link of itch
 https://seoli0205.itch.io/assignment
